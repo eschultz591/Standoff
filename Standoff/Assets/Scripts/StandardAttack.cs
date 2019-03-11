@@ -4,14 +4,11 @@ using UnityEngine;
 
 public class StandardAttack : MonoBehaviour
 {
-    [SerializeField]
-    private int damage = 1;
-    [SerializeField]
-    private bool destroy = false;
-    [SerializeField]
-    private float attackCD = .5f;
-
-    public CharacterController characterController;
+    [SerializeField] private int damage = 1;
+    [SerializeField] private bool destroy = false;
+    [SerializeField] private float attackCD = .5f;
+    [SerializeField] private Animator animator;
+    private CharacterController characterController;
 
     /*void Start()
     {
@@ -36,6 +33,7 @@ public class StandardAttack : MonoBehaviour
             Debug.Log("HIT");
             characterController = other.GetComponent<CharacterController>();
             characterController.TakeDamage(damage);
+            
         }
         else
         {

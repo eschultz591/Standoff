@@ -5,8 +5,8 @@ public class CharacterController : MonoBehaviour
 {
 
     public Rigidbody2D rb;
-    public GameObject Attack;
-
+    public GameObject Shank;
+    public Animator animator;
     #region Movement Variables
     [SerializeField] private float m_HorizontalSpeed;
     [SerializeField] private float m_VerticalSpeed;
@@ -41,8 +41,11 @@ public class CharacterController : MonoBehaviour
     
     public void Click(Vector3 mouseLocation)
     {
-       
-        Vector3 pos = mouseLocation;
+        
+        animator.SetBool("Stabbing", true);
+
+        //stuff from old project for creating blast
+        /*Vector3 pos = mouseLocation;
         pos.z = 18;
         pos = Camera.main.ScreenToWorldPoint(pos);
         Instantiate(Attack, pos, Quaternion.identity);
@@ -55,9 +58,10 @@ public class CharacterController : MonoBehaviour
 
         Debug.DrawRay(transform.position, pos);
         Debug.Log("You clicked: " + (pos));
-        
+        */
+
     }
-     
+
     public void TakeDamage(int damage)
     {
         Debug.Log("oof");
@@ -67,6 +71,9 @@ public class CharacterController : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
+    public void AnimationEnds()
+    {
+        animator.SetBool("Stabbing", false);
+    }
 
 }

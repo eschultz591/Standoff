@@ -21,14 +21,18 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+      
+        
         horizontalMove = Input.GetAxis("Horizontal") * runSpeed;
         verticalMove = Input.GetAxis("Vertical") * runSpeed;
         if (Input.GetButtonDown("Fire1"))
         {
+            
             Vector3 mouseLocation = Input.mousePosition;
             controller.Click(mouseLocation);
+          
         }
-
+       
 
     }
 
