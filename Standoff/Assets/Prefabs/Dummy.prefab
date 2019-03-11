@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 159300540}
   - component: {fileID: 159300539}
   - component: {fileID: 159300538}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dummy
   m_TagString: Dummy
   m_Icon: {fileID: 0}
@@ -148,3 +148,4 @@ MonoBehaviour:
   Attack: {fileID: 2321190498914595211, guid: e3018381dc9b1bc4485c09075d09a2a7, type: 3}
   m_HorizontalSpeed: 0
   m_VerticalSpeed: 0
+  health: 4

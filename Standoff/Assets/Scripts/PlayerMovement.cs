@@ -34,7 +34,8 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        controller.Move(verticalMove, horizontalMove);
+        Vector3 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        controller.Move(verticalMove, horizontalMove,mouse);
 
 
 

@@ -30,9 +30,10 @@ public class CharacterController : MonoBehaviour
 
     }
 
-    public void Move(float VSpeed, float HSpeed)
+    public void Move(float VSpeed, float HSpeed, Vector3 mouse)
     {
 
+        transform.rotation = Quaternion.Euler(0, 0, Mathf.Atan2(mouse.y - transform.position.y, mouse.x - transform.position.x) * Mathf.Rad2Deg - 90);
         rb.velocity = new Vector3(HSpeed * moveLimiter, VSpeed * moveLimiter, 0);
 
 
