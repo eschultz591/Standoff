@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private static GameManager instance = null;
     [SerializeField] private GameObject[] Maps;
     // [SerializeField] private Vector3[] PlayerSpawns;
-   // [SerializeField] private Vector3[] DummySpawns;
+    // [SerializeField] private Vector3[] DummySpawns;
     [SerializeField] private int level;
 
     [SerializeField] private List<Vector3> EnemySpawns;
@@ -50,7 +50,7 @@ public class GameManager : MonoBehaviour
 
         //curMap = GameObject.Find("Background");
         // int childrenCount = curMap.transform.childCount;
-        
+
         foreach (Transform child in curMap.transform)
         {
             if (child.tag == "PlayerSpawn")
@@ -61,6 +61,7 @@ public class GameManager : MonoBehaviour
             {
                 EnemySpawns.Add(child.gameObject.transform.position);
             }
+            
         }
 
         foreach (Vector3 spawn in PlayerSpawns)
@@ -73,8 +74,11 @@ public class GameManager : MonoBehaviour
             Instantiate(Dummies[level], spawn, Quaternion.identity);
         }
         Vector3 cv = new Vector3(0f, 0f, 20f);
-        cam.GetComponent<CameraMovement>().player = GameObject.Find("CirclePlayer(Clone)");
-        Instantiate(cam,cv , Quaternion.identity);
+
+        GameObject cfollow = GameObject.Find("CirclePlayer(Clone)");
+      
+        cam.GetComponent<CameraMovement>().player = GameObject.Find("CameraFollow");
+        Instantiate(cam, cv, Quaternion.identity);
         // Instantiate(Players[level], (Maps[level].transform.Find("PlayerSpawn")).transform);
     }
 

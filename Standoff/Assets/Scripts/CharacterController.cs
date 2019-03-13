@@ -18,7 +18,7 @@ public class CharacterController : MonoBehaviour
     #endregion
 
     [SerializeField]
-    public int health = 4;
+    public int health = 1;
 
     void Awake()
     {
