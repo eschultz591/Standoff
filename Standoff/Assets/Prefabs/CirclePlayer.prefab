@@ -1,35 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1325493822624255046
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 570059589419096129}
-  m_Layer: 8
-  m_Name: CameraFollow
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &570059589419096129
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325493822624255046}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 5566543514883477965}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &5566543514445285654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -101,10 +71,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 702720523, guid: c84328e788e7e4e4a84b13a57cd2127b, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 583389166054029597, guid: c84328e788e7e4e4a84b13a57cd2127b,
         type: 3}
       propertyPath: animator
@@ -112,12 +78,6 @@ PrefabInstance:
       objectReference: {fileID: 438720724}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c84328e788e7e4e4a84b13a57cd2127b, type: 3}
---- !u!4 &5566543514883477965 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 438720731, guid: c84328e788e7e4e4a84b13a57cd2127b,
-    type: 3}
-  m_PrefabInstance: {fileID: 5566543514445285654}
-  m_PrefabAsset: {fileID: 0}
 --- !u!50 &5566543514883477966 stripped
 Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 438720728, guid: c84328e788e7e4e4a84b13a57cd2127b,

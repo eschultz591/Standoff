@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 4b04affc9dfc25a46892f8e73d8927e7
   - enabled: 1
+    path: Assets/Scenes/GMPractice.unity
+    guid: 5476cbd7b62222d4384e6942cb6a8656
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 1115b255029d01f498237deb1a6028b1
   m_configObjects: {}

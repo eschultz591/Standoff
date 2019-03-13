@@ -145,7 +145,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 159300539}
-  Attack: {fileID: 2321190498914595211, guid: e3018381dc9b1bc4485c09075d09a2a7, type: 3}
+  Shank: {fileID: 0}
+  animator: {fileID: 0}
   m_HorizontalSpeed: 0
   m_VerticalSpeed: 0
-  health: 4
+  health: 1
