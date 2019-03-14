@@ -15,6 +15,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 5566543514883477963}
+    - target: {fileID: 438720732, guid: c84328e788e7e4e4a84b13a57cd2127b, type: 3}
+      propertyPath: runSpeed
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 438720733, guid: c84328e788e7e4e4a84b13a57cd2127b, type: 3}
       propertyPath: rb
       value: 
