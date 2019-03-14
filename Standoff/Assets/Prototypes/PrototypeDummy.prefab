@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8705932315020607024}
   - component: {fileID: 1782688998058604603}
   - component: {fileID: 3393786728860059873}
+  - component: {fileID: 8819684810236278428}
   m_Layer: 8
   m_Name: PrototypeDummy
   m_TagString: Dummy
@@ -150,3 +151,15 @@ MonoBehaviour:
   m_HorizontalSpeed: 0
   m_VerticalSpeed: 0
   health: 1
+--- !u!114 &8819684810236278428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432252242692501358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d52f69098ac8024389000401b931002, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class SaloonManager : MonoBehaviour
 {
-    [SerializeField] private List<Stool> Stools = new List<Stool>();
-   
+    //[SerializeField]
+    public List<Stool> Stools = new List<Stool>();
 
 
     void Start()
@@ -15,11 +15,12 @@ public class SaloonManager : MonoBehaviour
         {
             if (child.tag == "Stool")
             {
-                Stools.Add(new Stool(i, false, child.gameObject.transform.position));
+                Stools.Add(new Stool(i, false, child.gameObject.transform));
                 i++;
             }
           
         }
+
     }
 
     void Update()

@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
     //Initializes the game for each level.
     void InitGame()
     {
-        //Call the SetupScene function of the BoardManager script, pass it current level number.
+        //Creates Map based on Level, pass it current level number.
         Instantiate(Maps[level]);
 
         //curMap = GameObject.Find("Background");
