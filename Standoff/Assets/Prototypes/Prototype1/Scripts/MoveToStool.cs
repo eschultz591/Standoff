@@ -17,15 +17,21 @@ public class MoveToStool : MonoBehaviour
         SM = GameObject.Find("SaloonManager").GetComponent<SaloonManager>();
         foreach (Stool stool in SM.Stools)
         {
-
+           
             if (SM.Stools[i].isTaken == false)
             {
                 Debug.Log("moving to " + SM.Stools[i].stoolNum);
                 v3 = new Vector3(SM.Stools[i].stoolV3.x, SM.Stools[i].stoolV3.y, -4);
                 SM.Stools[i].isTaken = true;
+                SM.Stools[i].patron = this.gameObject;
                 break;
             }
             i++;
+        }
+        if (i == SM.Stools.Count)
+        {
+            Debug.Log("no seats :(");
+            this.enabled = false;
         }
 
 

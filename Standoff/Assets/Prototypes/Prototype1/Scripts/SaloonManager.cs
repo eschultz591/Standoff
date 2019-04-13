@@ -15,7 +15,7 @@ public class SaloonManager : MonoBehaviour
         {
             if (child.tag == "Stool")
             {
-                Stools.Add(new Stool(i, false, child.gameObject.transform, child.gameObject.transform.position));
+                Stools.Add(new Stool(i, false, child.gameObject.transform, child.gameObject.transform.position, null));
                 i++;
             }
           
