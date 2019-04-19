@@ -9,9 +9,10 @@ public class MoveToStool : MonoBehaviour
     int i = 0;
     SaloonManager SM;
     Vector3 v3;
+    [SerializeField] private Animator animator;
     void Start()
     {
-        
+        animator.SetBool("Moving", true);
        // SMO = GameObject.Find("SaloonManager");
         //SM = SMO.GetComponent<SaloonManager>();
         SM = GameObject.Find("SaloonManager").GetComponent<SaloonManager>();
@@ -42,6 +43,9 @@ public class MoveToStool : MonoBehaviour
        // Vector3 v3 = new Vector3(SM.Stools[i].stoolV3.x, SM.Stools[i].stoolV3.y, -4);
         transform.position = Vector3.MoveTowards(new Vector3(transform.position.x, transform.position.y, -4),v3, 3 * Time.deltaTime);
         if (transform.position.x == SM.Stools[i].stoolV3.x && transform.position.y == SM.Stools[i].stoolV3.y)
+        {
+            animator.SetBool("Moving", false);
             this.enabled = false;
+        }
     }
 }

@@ -7,6 +7,7 @@ public class FightStoolPatron : MonoBehaviour
     int i = 0;
     SaloonManager SM;
     Vector3 v3;
+    [SerializeField] private Animator animator;
     void Start()
     {
       

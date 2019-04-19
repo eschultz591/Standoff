@@ -8,6 +8,8 @@ public class BanditoControllerP : MonoBehaviour
     MoveToStool moveToStool;
     FightStoolPatron fightStoolPatron;
     public GameObject Fists;
+    [SerializeField] private Animator animator;
+
     void Start()
     {
         moveToStool = this.GetComponent<MoveToStool>();
@@ -22,7 +24,7 @@ public class BanditoControllerP : MonoBehaviour
         //Testing code
         if (Input.GetButtonDown("T"))
         {
-
+            
             moveToStool.enabled = true;
 
         }

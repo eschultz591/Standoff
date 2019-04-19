@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2194831648660175698}
   - component: {fileID: 6729144653285625107}
   - component: {fileID: 3322842605583362691}
+  - component: {fileID: 3509433391990880934}
   m_Layer: 8
   m_Name: PrototypeBandit
   m_TagString: Dummy
@@ -31,7 +32,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1704951957563235905}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.25, y: 3.97, z: -2}
+  m_LocalPosition: {x: 1.815, y: 4.098, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -165,6 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d52f69098ac8024389000401b931002, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 3509433391990880934}
 --- !u!114 &6729144653285625107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,6 +180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Fists: {fileID: 0}
+  animator: {fileID: 3509433391990880934}
 --- !u!114 &3322842605583362691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,3 +193,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b71ea18a2f60ebe409b3e29a10f9c7df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 3509433391990880934}
+--- !u!95 &3509433391990880934
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704951957563235905}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 70b99845526ec634f9d5dbd6e1e68e4b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
