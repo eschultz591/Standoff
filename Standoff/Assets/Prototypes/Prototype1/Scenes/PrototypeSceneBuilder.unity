@@ -112,7 +112,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &819781713487848856
+--- !u!1001 &1033707849
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -183,13 +183,13 @@ PrefabInstance:
         type: 3}
       propertyPath: curMap
       value: 
-      objectReference: {fileID: 6682997149627352327, guid: 866eb53406555b8429834887e9d5237c,
+      objectReference: {fileID: 4715413628922974054, guid: 26c2a6cd10b3b5a4d92c500d4c69170b,
         type: 3}
     - target: {fileID: 2903708477783402704, guid: e4dcbb47b65816f42a4c98498c038655,
         type: 3}
-      propertyPath: Dummies.Array.data[0]
+      propertyPath: Maps.Array.data[0]
       value: 
-      objectReference: {fileID: 1432252242692501358, guid: 49cfe0281d0c69f44b4efab54f30cceb,
+      objectReference: {fileID: 4715413628922974054, guid: 26c2a6cd10b3b5a4d92c500d4c69170b,
         type: 3}
     - target: {fileID: 2903708477783402704, guid: e4dcbb47b65816f42a4c98498c038655,
         type: 3}
@@ -199,9 +199,9 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 2903708477783402704, guid: e4dcbb47b65816f42a4c98498c038655,
         type: 3}
-      propertyPath: Maps.Array.data[0]
+      propertyPath: Dummies.Array.data[0]
       value: 
-      objectReference: {fileID: 6682997149627352327, guid: 866eb53406555b8429834887e9d5237c,
+      objectReference: {fileID: 1704951957563235905, guid: 03da3664111b4cc47979add86c3f557e,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4dcbb47b65816f42a4c98498c038655, type: 3}
