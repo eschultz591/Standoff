@@ -45,12 +45,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Roof
-    uniqueID: 1770799823
-    locked: 0
   - name: UnderHat
     uniqueID: 2592102813
     locked: 0
+  - name: Ground
+    uniqueID: 76157269
+    locked: 0
   - name: Character
     uniqueID: 2057600653
+    locked: 0
+  - name: Roof
+    uniqueID: 1770799823
     locked: 0
