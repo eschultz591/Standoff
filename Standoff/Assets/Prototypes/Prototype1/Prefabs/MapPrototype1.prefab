@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 236556879}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Stool
   m_TagString: Stool
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 852660416}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Stool
   m_TagString: Stool
   m_Icon: {fileID: 0}
@@ -69,7 +69,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1159781741}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Stool
   m_TagString: Stool
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1761682436}
   - component: {fileID: 1761682437}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Saloon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -183,7 +183,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1805031608}
   - component: {fileID: 1805031609}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SaloonManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -226,7 +226,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6775242975838008976}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EnemySpawn
   m_TagString: EnemySpawn
   m_Icon: {fileID: 0}
@@ -256,7 +256,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2319281754624806647}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EnemySpawn
   m_TagString: EnemySpawn
   m_Icon: {fileID: 0}
@@ -286,7 +286,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2572407432176660513}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EnemySpawn
   m_TagString: EnemySpawn
   m_Icon: {fileID: 0}
@@ -318,7 +318,7 @@ GameObject:
   - component: {fileID: 5728538853005058317}
   - component: {fileID: 9062465796467768994}
   - component: {fileID: 5333713687853581203}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MapPrototype1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,7 +423,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8138454440672749287}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PlayerSpawn
   m_TagString: PlayerSpawn
   m_Icon: {fileID: 0}
@@ -453,7 +453,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1766420423377978157}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EnemySpawn
   m_TagString: EnemySpawn
   m_Icon: {fileID: 0}
