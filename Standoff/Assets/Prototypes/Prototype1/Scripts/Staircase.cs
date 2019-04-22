@@ -7,7 +7,6 @@ public class Staircase : MonoBehaviour
 
     public string layerName2;
 
-    // The layer numbers
     private int layer1, layer2;
 
     private Camera mainCamera;
