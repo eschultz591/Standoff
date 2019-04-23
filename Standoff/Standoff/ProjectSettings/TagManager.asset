@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Dummy
+  - PlayerSpawn
+  - EnemySpawn
+  - Stool
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Floor 1
+  - Floor 2
+  - Roof
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UnderHat
+    uniqueID: 2592102813
+    locked: 0
+  - name: Ground
+    uniqueID: 76157269
+    locked: 0
+  - name: Character
+    uniqueID: 2057600653
+    locked: 0
+  - name: Roof
+    uniqueID: 1770799823
+    locked: 0
