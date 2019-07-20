@@ -8,7 +8,7 @@ public class CameraMovement : MonoBehaviour
     public GameObject player;       
 
     //private Vector2 offset;
-    private Vector3 offset;         
+    private Vector3 offset = new Vector3(0,0,-2);         
 
 
     void Start()

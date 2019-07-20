@@ -146,7 +146,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 159300539}
   Shank: {fileID: 0}
+  Hand: {fileID: 0}
   animator: {fileID: 0}
   m_HorizontalSpeed: 0
   m_VerticalSpeed: 0
+  currLayer: 0
   health: 1
+  isInteracting: 0
+  money: 5

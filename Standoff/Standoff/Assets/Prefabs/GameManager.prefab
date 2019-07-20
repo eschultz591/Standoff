@@ -43,14 +43,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f731b9cf33758e34a85a5ba59bb17641, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  curMap: {fileID: 2338098629491778308, guid: 4e02a2b8210dc4445994f6231fed138d, type: 3}
+  curMap: {fileID: 4715413628922974054, guid: 26c2a6cd10b3b5a4d92c500d4c69170b, type: 3}
   cam: {fileID: 7776983434410137453, guid: 7e29f449700801c4a9f5bf1e703f725f, type: 3}
-  Players:
-  - {fileID: 5566543514883477953, guid: 815f84e0bf0305c42975a5137b09b9d8, type: 3}
-  Dummies:
-  - {fileID: 159300537, guid: 4d928f0136bc51b4f85827264cc1008f, type: 3}
+  Players: {fileID: 2435516498250696933, guid: 376b197eb2c0fe047b8661cb1dd57f62, type: 3}
+  Dummies: {fileID: 1704951957563235905, guid: 03da3664111b4cc47979add86c3f557e, type: 3}
+  Astar: {fileID: 8246223545581912077, guid: 18007d3d2d0410b498922727e40a7c38, type: 3}
   Maps:
-  - {fileID: 2338098629491778308, guid: 4e02a2b8210dc4445994f6231fed138d, type: 3}
-  level: 0
+  - {fileID: 4715413628922974054, guid: 26c2a6cd10b3b5a4d92c500d4c69170b, type: 3}
+  selection: 0
   EnemySpawns: []
   PlayerSpawns: []

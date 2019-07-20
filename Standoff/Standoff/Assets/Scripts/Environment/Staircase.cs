@@ -10,7 +10,7 @@ public class Staircase : MonoBehaviour
     private int layer1, layer2;
 
     private Camera mainCamera;
-
+    private CharacterController cc;
 
     void Start()
     {
@@ -28,7 +28,7 @@ public class Staircase : MonoBehaviour
         {
             Debug.Log("here");
             int currentFloorLayer = other.gameObject.layer;
-
+             
             if (currentFloorLayer == layer1 || currentFloorLayer == layer2)
             {
                 ToggleLayer(LayerMask.LayerToName(layer1));
@@ -41,6 +41,8 @@ public class Staircase : MonoBehaviour
                 {
                     child.gameObject.layer = (currentFloorLayer == layer1) ? layer2 : layer1; 
                 }
+                cc = other.GetComponent<CharacterController>();
+                cc.currLayer = other.gameObject.layer;
             }
         }
     }

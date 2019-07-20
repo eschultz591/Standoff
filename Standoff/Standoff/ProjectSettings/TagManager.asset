@@ -8,6 +8,9 @@ TagManager:
   - PlayerSpawn
   - EnemySpawn
   - Stool
+  - Stair1
+  - Stair2
+  - wall
   layers:
   - Default
   - TransparentFX
@@ -20,7 +23,7 @@ TagManager:
   - Floor 1
   - Floor 2
   - Roof
-  - 
+  - Unwalkable
   - 
   - 
   - 

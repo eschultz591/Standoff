@@ -6,7 +6,9 @@ public class CharacterController : MonoBehaviour
 
     public Rigidbody2D rb;
     public GameObject Shank;
+    public GameObject Hand;
     public Animator animator;
+
     #region Movement Variables
     [SerializeField] private float m_HorizontalSpeed;
     [SerializeField] private float m_VerticalSpeed;
@@ -17,17 +19,26 @@ public class CharacterController : MonoBehaviour
     private Vector3 m_Velocity = Vector3.zero;
     #endregion
 
-    [SerializeField]
-    private int health = 1;
+    public int currLayer; 
+    //the characters current layer. For keeping track of its floor
+    //as of writing this 06/09/2019 8 is Floor 2, 9 is Floor 2, and 10 is Roof
+
+    [SerializeField] private int health = 1;
+    public bool isInteracting = false;
+    public int money = 5;
 
     void Awake()
     {
+        currLayer = gameObject.layer;
         rb = GetComponent<Rigidbody2D>();
     }
 
     void FixedUpdate()
     {
-
+        if (isInteracting)
+        {
+            isInteracting = false;
+        }
     }
 
     public void Move(float VSpeed, float HSpeed, Vector3 mouse)
@@ -39,6 +50,15 @@ public class CharacterController : MonoBehaviour
 
     }
     
+    public void Interact(bool ibool)
+    {
+        Interact interactS = GetComponentInChildren<Interact>();
+        interactS.interacting = ibool;
+        isInteracting = ibool;
+        
+
+    }
+
     public void Click(Vector3 mouseLocation)
     {
         

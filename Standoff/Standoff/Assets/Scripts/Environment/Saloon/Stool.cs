@@ -10,14 +10,16 @@ public class Stool
     public Transform stoolTransform;
     public Vector3 stoolV3;
     public GameObject patron;
+    public int floor;
 
-    public Stool(int seatNum, bool taken, Transform spot, Vector3 v3, GameObject p)
+    public Stool(int seatNum, bool taken, Transform spot, Vector3 v3, GameObject p, int curLayer)
     {
         stoolNum = seatNum;
         isTaken = taken;
         stoolTransform = spot;
         stoolV3 = v3;
         patron = p;
+        floor = curLayer;
     }
 
 

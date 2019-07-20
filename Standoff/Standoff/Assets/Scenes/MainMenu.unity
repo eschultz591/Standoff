@@ -567,7 +567,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.27450982, g: 0.27450982, b: 0.27450982, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -706,6 +706,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e331e0afd9ac9984f824dbbfd2b5f087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gm: {fileID: 9088205121767849582, guid: e4dcbb47b65816f42a4c98498c038655, type: 3}
+  port: 7777
 --- !u!1 &1177778689
 GameObject:
   m_ObjectHideFlags: 0
@@ -884,7 +886,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1618444127
 MonoBehaviour:
   m_ObjectHideFlags: 0

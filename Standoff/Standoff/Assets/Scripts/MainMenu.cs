@@ -9,11 +9,17 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    public GameObject gm;
     public int port = 7777;
     public void CreateGame ()
     {
+
+
+
+
+        
         SceneManager.LoadScene(1);
-         
+        /* 
 
         
 
@@ -34,7 +40,7 @@ public class MainMenu : MonoBehaviour
 
         Debug.Log("Ip:"+ ip);
         Debug.Log("waiting for client on port: " + outport );
-        
+        */
         
 
         
